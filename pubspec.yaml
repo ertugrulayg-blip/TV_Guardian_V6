@@ -19,7 +19,7 @@ dependencies:
   flutter_tts: ^3.8.5
 
   # Sesli komut
-  speech_to_text: ^6.6.2
+  speech_to_text: ^5.7.0
 
   # Ayarlari kaydet
   shared_preferences: ^2.2.3
