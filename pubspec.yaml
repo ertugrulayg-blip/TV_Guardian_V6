@@ -16,7 +16,7 @@ dependencies:
   google_mlkit_face_detection: ^0.9.0
 
   # Sesli uyari (Turkce TTS)
-  flutter_tts: ^4.0.2
+  flutter_tts: ^3.8.5
 
   # Sesli komut
   speech_to_text: ^6.6.2
