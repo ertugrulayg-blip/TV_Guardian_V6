@@ -1,0 +1,48 @@
+name: tv_guardian
+description: Çocuk mesafe koruma - Android TV Remote Protocol v2
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ✅ Google'ın kendi protokolü - geliştirici modu GEREKMİYOR
+  androidtvremote: ^0.0.3
+
+  # Aynı WiFi'daki Android TV'leri otomatik keşfet
+  multicast_dns: ^0.3.2+1
+  network_info_plus: ^5.0.3
+
+  # Kamera + yüz tespiti
+  camera: ^0.10.5+9
+  google_mlkit_face_detection: ^0.9.0
+
+  # Sesli uyarı (Türkçe TTS)
+  flutter_tts: ^4.0.2
+
+  # Sesli komut
+  speech_to_text: ^6.6.2
+
+  # Ayarları kaydet (TV IP, eşik vs)
+  shared_preferences: ^2.2.3
+
+  # İzin isteme
+  permission_handler: ^11.3.1
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
